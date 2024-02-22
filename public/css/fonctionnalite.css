@@ -1,0 +1,150 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+}
+body {
+    background-image: url(/images/BG_1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: center;
+    position: relative;
+    padding-top: 325px;
+}
+/* ----------------- first_bloc ---------------- */
+.first_bloc {
+    background-color: rgba(235, 235, 235, 0.864);
+    width: 500px;
+    height: 250px;
+    text-align: left;
+    padding: 25px 20px;
+    margin: 30px;
+    border-radius: 40px;
+    position: absolute;
+    bottom:100px;
+    visibility: hidden;
+
+}
+.first_bloc #first_para {
+    color: rgb(119, 119, 119);
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: serif;
+}
+.first_bloc h1 {
+    font-size: 55px;
+    margin: 6px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.first_bloc #second_para {
+    color: rgb(12, 12, 12);
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.first_bloc .bouton {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.first_bloc button {
+    background-color: rgb(6, 6, 196);
+    color: white;
+    font-size: 13px;
+    padding: 8px 50px;
+    border-radius: 20px;
+    margin: auto ;
+    outline: none;
+    text-transform: uppercase;
+}
+.second_bloc {
+    background-color: rgb(6, 6, 196);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 10px;
+}
+.second_bloc .bloc_bouton input[type="button"] {
+    background-color: transparent;
+    color: white;
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto 30px;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.second_bloc .bloc_bouton input[type="button"]:hover {
+    background-color: white;
+    color: rgb(6, 6, 196);
+}
+.second_bloc .bloc_bouton #contact {
+    background-color: rgba(226, 226, 246, 0.185);
+    color: rgb(233, 233, 233);
+    font-size: 13px;
+    font-weight: bolder;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: auto ;
+    outline: none;
+    text-transform: uppercase;
+}
+
+/* -------------solution-------------- */
+.solution {
+    background-color: rgb(230, 226, 226);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+/* .bloc_infos {
+
+} */
+.solution .bloc_infos #first_para {
+    color: rgb(119, 119, 119);
+    font-weight: lighter;
+    font-size: 18px;
+    font-family: serif;
+}
+.solution .bloc_infos h1 {
+    font-size: 35px;
+    margin: 10px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.solution .bloc_infos #second_para {
+    color: rgb(12, 12, 12);
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.solution .bloc_infos #third_para {
+    margin-top: 10px;
+}
+.solution .bloc_infos .hr {
+    width: 100%;
+    margin: 40px auto;
+}
+.solution .bloc_infos .hr hr {
+    height: 2px;
+    background-color: black;
+    width: 80%;
+}
+.solution .bloc_img img {
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 70px;
+}
+.title{
+    margin-top: 10px;
+    font-size: large;
+}
